@@ -1,0 +1,111 @@
+VERSION "2020 Subaru WRX STI"
+
+NS_ :
+    BA_
+    BA_DEF_
+    BA_DEF_DEF_
+    BA_DEF_DEF_REL_
+    BA_DEF_REL_
+    BA_DEF_SGTYPE_
+    BA_REL_
+    BA_SGTYPE_
+    BO_TX_BU_
+    BU_BO_REL_
+    BU_EV_REL_
+    BU_SG_REL_
+    CAT_
+    CAT_DEF_
+    CM_
+    ENVVAR_DATA_
+    EV_DATA_
+    FILTER
+    NS_DESC_
+    SGTYPE_
+    SGTYPE_VAL_
+    SG_MUL_VAL_
+    SIGTYPE_VALTYPE_
+    SIG_GROUP_
+    SIG_TYPE_REF_
+    SIG_VALTYPE_
+    VAL_
+    VAL_TABLE_
+
+BS_:
+
+BU_: STI
+
+BO_ 2 ID_2: 8 STI
+    SG_ DEBUG_ID_2_B1: 0|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_2_B2: 8|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_2_B5: 32|8@1+ (1, 0) [0|254] "" STI
+
+BO_ 208 ID_D0: 8 STI
+    SG_ STEER_ANGLE : 0|16@1- (0.1, 0) [-450|450] "deg" STI
+    SG_ GYRO_YAW: 16|9@1- (0.005, 0) [-1.2775|1.2775] "rad/s" STI
+    SG_ ACCEL_LAT: 48|8@1- (0.2, 0) [-25.4|25.4] "m/s/s" STI
+    SG_ ACCEL_LONG: 56|8@1- (0.15, 0) [-19.05|19.05] "m/s/s" STI
+
+BO_ 209 ID_D1: 4 STI
+    SG_ SPEED : 0|16@1+ (0.0155168902, 0) [0|300] "m/s" STI
+    SG_ BRAKE : 16|8@1+ (1.0, 0) [0|100] "%" STI
+
+BO_ 210 ID_D2: 8 STI
+    SG_ DEBUG_ID_D2_B1: 0|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_D2_B2: 8|8@1+ (1, 0) [0|254] "" STI
+
+BO_ 211 ID_D3: 7 STI
+    SG_ DEBUG_ID_D3_B1: 0|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_D3_B2: 8|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_D3_B3: 16|8@1+ (1, 0) [0|254] "" STI
+
+BO_ 212 ID_D4: 8 STI
+    SG_ WS_FL : 0|16@1+ (0.0155168902, 0) [0|300] "m/s" STI
+    SG_ WS_FR : 16|16@1+ (0.0155168902, 0) [0|300] "m/s" STI
+    SG_ WS_RL : 32|16@1+ (0.0155168902, 0) [0|300] "m/s" STI
+    SG_ WS_RR : 48|16@1+ (0.0155168902, 0) [0|300] "m/s" STI
+
+BO_ 320 ID_140: 8 STI
+    SG_ THROTTLE : 0|8@1+ (0.39215686274509803, 0) [0|100] "%" STI
+    SG_ CLUTCH : 15|1@1+ (100.0, 0) [0|100] "%" STI
+    SG_ RPM : 16|14@1+ (1.0, 0) [0|10000] "rpm" STI
+    SG_ DEBUG_ID_140_B6: 40|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_140_B7: 48|8@1+ (1, 0) [0|254] "" STI
+
+BO_ 321 ID_141: 8 STI
+    SG_ DEBUG_ID_141_B1: 0|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_141_B2: 8|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_141_B3: 16|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_141_B4: 24|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_141_B5: 32|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_141_B6: 40|8@1+ (1, 0) [0|254] "" STI
+    SG_ GEAR : 48|4@1+ (1, 0) [0|6] "" STI
+    SG_ DEBUG_ID_141_B7: 52|4@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_141_B8: 56|8@1+ (1, 0) [0|254] "" STI
+
+BO_ 340 ID_154: 7 STI
+    SG_ REVERSE : 49|1@1+ (1, 0) [0|255] "" STI
+    SG_ EBRAKE : 51|1@1+ (1, 0) [0|255] "" STI
+
+BO_ 342 ID_156: 8 STI
+    SG_ FUEL : 56|8@1+ (2.155, 6.315) [0|61] "litre" STI
+
+BO_ 642 ID_282: 8 STI
+    SG_ DEBUG_ID_282_B1: 0|8@1+ (1, 0) [0|254] "" STI
+
+BO_ 864 ID_360: 8 STI
+    SG_ DEBUG_ID_360_B1: 0|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_360_B2: 8|8@1+ (1, 0) [0|254] "" STI
+    SG_ COOLANT_TEMP: 24|8@1+ (1, -40) [-40|215] "C" STI
+    SG_ BOOST: 32|8@1+ (1.9885, -98.85) [-99|507] "kPa" STI
+    SG_ SI_MODE : 40|3@1+ (0.5, -1) [0|2] "" STI
+
+BO_ 977 ID_3D1: 8 STI
+    SG_ DEBUG_ID_3D1_B1: 0|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_3D1_B5: 32|8@1+ (1, 0) [0|254] "" STI
+
+BO_ 1736 ID_6C8: 8 STI
+    SG_ DEBUG_ID_6C8_B4: 24|8@1+ (1, 0) [0|254] "" STI
+
+BO_ 1745 ID_6D1: 8 STI
+    SG_ DEBUG_ID_6D1_B1: 0|8@1+ (1, 0) [0|254] "" STI
+    SG_ DEBUG_ID_6D1_B2: 8|8@1+ (1, 0) [0|254] "" STI

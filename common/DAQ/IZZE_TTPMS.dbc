@@ -1,0 +1,181 @@
+VERSION ""
+
+
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 1053 RR_TTPMS_6: 8 Vector__XXX
+ SG_ RR_TTPMS_NODE_ID : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ RR_TTPMS_TC : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ RR_TTPMS_T : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RR_TTPMS_RSSI : 23|16@0- (1,0) [-32768|32767] "" Vector__XXX
+
+BO_ 1052 RR_TTPMS_5: 8 Vector__XXX
+ SG_ RR_TTPMS_T16 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RR_TTPMS_T15 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RR_TTPMS_T14 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RR_TTPMS_T13 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1051 RR_TTPMS_4: 8 Vector__XXX
+ SG_ RR_TTPMS_T12 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RR_TTPMS_T11 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RR_TTPMS_T10 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RR_TTPMS_T9 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1050 RR_TTPMS_3: 8 Vector__XXX
+ SG_ RR_TTPMS_T8 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RR_TTPMS_T7 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RR_TTPMS_T6 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RR_TTPMS_T5 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1049 RR_TTPMS_2: 8 Vector__XXX
+ SG_ RR_TTPMS_T4 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RR_TTPMS_T3 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RR_TTPMS_T2 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RR_TTPMS_T1 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1048 RR_TTPMS_1: 8 Vector__XXX
+ SG_ RR_TTPMS_P_GAUGE : 55|16@0+ (1,0) [0|65535] "millibar" Vector__XXX
+ SG_ RR_TTPMS_P : 39|16@0+ (1,0) [0|65535] "millibar" Vector__XXX
+ SG_ RR_TTPMS_BAT_V : 23|16@0+ (0.001,0) [0|65535] "V" Vector__XXX
+ SG_ RR_TTPMS_SN : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1047 LR_TTPMS_6: 8 Vector__XXX
+ SG_ LR_TTPMS_NODE_ID : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ LR_TTPMS_T : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LR_TTPMS_RSSI : 23|16@0- (1,0) [-32768|32767] "" Vector__XXX
+ SG_ LR_TTPMS_TC : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1046 LR_TTPMS_5: 8 Vector__XXX
+ SG_ LR_TTPMS_T16 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LR_TTPMS_T15 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LR_TTPMS_T14 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LR_TTPMS_T13 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1045 LR_TTPMS_4: 8 Vector__XXX
+ SG_ LR_TTPMS_T12 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LR_TTPMS_T11 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LR_TTPMS_T10 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LR_TTPMS_T9 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1044 LR_TTPMS_3: 8 Vector__XXX
+ SG_ LR_TTPMS_T8 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LR_TTPMS_T7 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LR_TTPMS_T6 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LR_TTPMS_T5 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1043 LR_TTPMS_2: 8 Vector__XXX
+ SG_ LR_TTPMS_T4 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LR_TTPMS_T3 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LR_TTPMS_T2 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LR_TTPMS_T1 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1042 LR_TTPMS_1: 8 Vector__XXX
+ SG_ LR_TTPMS_P_GAUGE : 55|16@0+ (1,0) [0|65535] "millibar" Vector__XXX
+ SG_ LR_TTPMS_P : 39|16@0+ (1,0) [0|65535] "millibar" Vector__XXX
+ SG_ LR_TTPMS_BAT_V : 23|16@0+ (0.001,0) [0|65535] "V" Vector__XXX
+ SG_ LR_TTPMS_SN : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1041 RF_TTPMS_6: 8 Vector__XXX
+ SG_ RF_TTPMS_NODE_ID : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ RF_TTPMS_T : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RF_TTPMS_RSSI : 23|16@0- (1,0) [-32768|32767] "" Vector__XXX
+ SG_ RF_TTPMS_TC : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1040 RF_TTPMS_5: 8 Vector__XXX
+ SG_ RF_TTPMS_T16 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RF_TTPMS_T15 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RF_TTPMS_T14 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RF_TTPMS_T13 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1039 RF_TTPMS_4: 8 Vector__XXX
+ SG_ RF_TTPMS_T12 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RF_TTPMS_T11 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RF_TTPMS_T10 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RF_TTPMS_T9 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1038 RF_TTPMS_3: 8 Vector__XXX
+ SG_ RF_TTPMS_T8 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RF_TTPMS_T7 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RF_TTPMS_T6 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RF_TTPMS_T5 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1037 RF_TTPMS_2: 8 Vector__XXX
+ SG_ RF_TTPMS_T4 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RF_TTPMS_T3 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RF_TTPMS_T2 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ RF_TTPMS_T1 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1036 RF_TTPMS_1: 8 Vector__XXX
+ SG_ RF_TTPMS_P_GAUGE : 55|16@0+ (1,0) [0|65535] "millibar" Vector__XXX
+ SG_ RF_TTPMS_P : 39|16@0+ (1,0) [0|65535] "millibar" Vector__XXX
+ SG_ RF_TTPMS_BAT_V : 23|16@0+ (0.001,0) [0|65535] "V" Vector__XXX
+ SG_ RF_TTPMS_SN : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1035 LF_TTPMS_6: 8 Vector__XXX
+ SG_ LF_TTPMS_NODE_ID : 55|16@0+ (1,0) [0|65535] "" Vector__XXX
+ SG_ LF_TTPMS_T : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LF_TTPMS_RSSI : 23|16@0- (1,0) [-32768|32767] "" Vector__XXX
+ SG_ LF_TTPMS_TC : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1034 LF_TTPMS_5: 8 Vector__XXX
+ SG_ LF_TTPMS_T16 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LF_TTPMS_T15 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LF_TTPMS_T14 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LF_TTPMS_T13 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1033 LF_TTPMS_4: 8 Vector__XXX
+ SG_ LF_TTPMS_T12 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LF_TTPMS_T11 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LF_TTPMS_T10 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LF_TTPMS_T9 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1032 LF_TTPMS_3: 8 Vector__XXX
+ SG_ LF_TTPMS_T8 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LF_TTPMS_T7 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LF_TTPMS_T6 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LF_TTPMS_T5 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1031 LF_TTPMS_2: 8 Vector__XXX
+ SG_ LF_TTPMS_T4 : 55|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LF_TTPMS_T3 : 39|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LF_TTPMS_T2 : 23|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+ SG_ LF_TTPMS_T1 : 7|16@0+ (0.1,-100) [-100|6453.5] "C" Vector__XXX
+
+BO_ 1030 LF_TTPMS_1: 8 Vector__XXX
+ SG_ LF_TTPMS_P_GAUGE : 55|16@0+ (1,0) [0|65535] "millibar" Vector__XXX
+ SG_ LF_TTPMS_P : 39|16@0+ (1,0) [0|65535] "millibar" Vector__XXX
+ SG_ LF_TTPMS_BAT_V : 23|16@0+ (0.001,0) [0|65535] "V" Vector__XXX
+ SG_ LF_TTPMS_SN : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
