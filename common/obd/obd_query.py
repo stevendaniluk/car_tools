@@ -1,6 +1,7 @@
 #/usr/bin/python3
 
 import argparse
+import logging
 
 # Setup the path for the local version of python-OBD
 import os
@@ -15,7 +16,7 @@ from obd.commands import Commands
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Runs a custom OBD command")
-    parser.add_argument("cmd", type=str, help="Command to query")
+    parser.add_argument("--cmd", type=str, help="Command to query")
     parser.add_argument("--list_supported", action="store_true",\
         help="List all supported commands and exit")
     parser.add_argument("--force", action="store_true",\
