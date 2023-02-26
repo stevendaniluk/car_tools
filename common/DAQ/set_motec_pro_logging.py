@@ -41,7 +41,7 @@ if __name__ == '__main__':
     "Converts MoTeC .ld files so that they can be opened in i2 Pro")
     parser.add_argument("path", type=str, help="Path to .ld file or directory with .ld files")
     parser.add_argument("--output", type=str, \
-        help="Path to output .ld file, will append '_pro' if not provided")
+        help="Path to output .ld file, will append '.orig' if not provided")
     args = parser.parse_args()
 
     if args.path:
@@ -56,11 +56,9 @@ if __name__ == '__main__':
         for item in os.listdir(args.path):
             if os.path.isfile(item) and os.path.splitext(item)[1] == ".ld":
                 # Candidate file
-                if os.path.splitext(item)[0][-4:] == "_pro":
-                    # This is already a converted pro file
+                if os.path.isfile(os.path.splitext(item)[0] + ".ld.orig"):
+                    print("Skipping '%s' because '.orig' backup exists" % os.path.split(item)[1])
                     continue
-                elif os.path.isfile(os.path.splitext(item)[0] + "_pro.ld"):
-                    print("Skipping '%s' because pro file already exists" % os.path.split(item)[1])
                 else:
                     filenames.append(item)
 
@@ -74,14 +72,12 @@ if __name__ == '__main__':
     for ld_path in filenames:
         print("Converting '%s'..." % os.path.split(ld_path)[1])
 
-        # Create a new filename with "_pro" appended
-        # ld_dir, ld_filename = os.path.split(ld_path)
-        # ld_filename = os.path.splitext(ld_filename)[0]
-        # mod_ld_filename = os.path.join(ld_dir, ld_filename + "_pro.ld")
-        mod_ld_filename = os.path.splitext(ld_path)[0] + "_pro.ld"
+        # Rename the original file
+        ld_path_orig = ld_path + ".orig"
+        os.rename(ld_path, ld_path_orig)
 
         print("  Opening input file...")
-        ld_file = open(ld_path, "rb")
+        ld_file = open(ld_path_orig, "rb")
 
         # Load the header data and modify the fields required to enable Pro Logging
         header_data = ld_file.read(struct.calcsize(HEADER_FORMAT))
@@ -94,11 +90,11 @@ if __name__ == '__main__':
         header_data_unpacked = tuple(header_data_unpacked)
 
         # Extract everything from the original file after the header
-        file_size = os.path.getsize(ld_path)
+        file_size = os.path.getsize(ld_path_orig)
         ld_file.seek(struct.calcsize(HEADER_FORMAT))
         og_contents = ld_file.read(file_size - struct.calcsize(HEADER_FORMAT))
 
-        with open(mod_ld_filename, "ab") as ld_mod_file:
+        with open(ld_path, "ab") as ld_mod_file:
             print("  Writing modified file...")
 
             # Write the modified header data, plus the original contents after the header
