@@ -35,10 +35,10 @@ BS_:
 BU_:
 
 BO_ 1024 ID_400: 8 Vector__XXX
-    SG_ SPEED : 0|8@1+ (1.0729, 0) [0|244] "km/h" Vector__XXX
-    SG_ DEBUG_1 : 8|8@1+ (1.0729, 0) [0|255] "" Vector__XXX
+    SG_ SPEED : 7|8@0+ (1.0, 0) [0|244] "km/h" Vector__XXX
+    SG_ DEBUG_1 : 15|8@0+ (1.0729, 0) [0|255] "" Vector__XXX
     SG_ RPM : 23|16@0+ (1, 0) [0|65535] "rpm" Vector__XXX
-    SG_ FUEL_LEVEL : 32|8@1+ (0.1706, 0) [0|43.5] "l" Vector__XXX
-    SG_ COOLANT_TEMP : 40|8@1+ (0.6664, -48.95) [0|241] "C" Vector__XXX
-    SG_ MIL : 48|8@1+ (1, 0) [0|255] "" Vector__XXX
-    SG_ DEBUG_2 : 56|8@1+ (1, 0) [0|255] "" Vector__XXX
+    SG_ FUEL_LEVEL : 39|8@0+ (0.1706, 0) [0|43.5] "l" Vector__XXX
+    SG_ COOLANT_TEMP : 47|8@0+ (0.6783, -51.839) [0|241] "C" Vector__XXX
+    SG_ MIL : 55|8@0+ (1, 0) [0|255] "" Vector__XXX
+    SG_ DEBUG_2 : 63|8@0+ (1, 0) [0|255] "" Vector__XXX
