@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rules>
+	<Rule>
+		<Signal Name="COOLANT_TEMP"/>
+		<Channel Name="Coolant Temperature"/>
+	</Rule>
+	<Rule>
+		<Signal Name="SPEED"/>
+		<Channel Name="Wheel Speed"/>
+	</Rule>
+	<Rule>
+		<Signal Name="RPM"/>
+		<Channel Name="Engine RPM"/>
+	</Rule>
+	<Rule>
+		<Signal Name="FUEL_LEVEL"/>
+		<Channel Name="Fuel Level Reading"/>
+	</Rule>
+</Rules>

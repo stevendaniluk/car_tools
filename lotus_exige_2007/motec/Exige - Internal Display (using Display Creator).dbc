@@ -1,0 +1,416 @@
+VERSION "100"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: C187
+
+
+BO_ 2636251137 Display_1: 2 C187
+ SG_ Lap_GainLoss_Running : 7|16@0- (0.01,0) [0|0] "s"  Vector__XXX
+
+BO_ 2636251138 Display_2: 6 C187
+ SG_ Engine_RPM : 7|32@0- (0.1,0) [0|1333] "rps"  Vector__XXX
+ SG_ Wheel_Speed : 39|16@0- (0.1,0) [0|3000] "km/h"  Vector__XXX
+
+BO_ 2636251139 Display_3: 8 C187
+ SG_ Wheel_Speed_RR : 7|32@0- (0.1,0) [0|3000] "km/h"  Vector__XXX
+ SG_ Wheel_Speed_FR : 39|32@0- (0.1,0) [0|3000] "km/h"  Vector__XXX
+
+BO_ 2636251140 Display_4: 8 C187
+ SG_ Steering_Wheel_Angle : 7|16@0- (0.1,0) [-3600|3600] "deg"  Vector__XXX
+ SG_ Wheel_Speed_FL : 23|32@0- (0.1,0) [0|3000] "km/h"  Vector__XXX
+ SG_ Air_Temp_Manifold : 55|16@0- (0.1,0) [0|500] "C"  Vector__XXX
+
+BO_ 2636251141 Display_5: 8 C187
+ SG_ Wheel_Speed_RL : 7|32@0- (0.1,0) [0|3000] "km/h"  Vector__XXX
+ SG_ Clutch_Pedal : 39|16@0- (1,0) [0|0] "ratio"  Vector__XXX
+ SG_ Brake_Pedal : 55|16@0- (0.01,0) [0|0] "ratio"  Vector__XXX
+
+BO_ 2636251142 Display_6: 2 C187
+ SG_ Throttle_Pedal : 7|16@0- (0.001,0) [0|0] "ratio"  Vector__XXX
+
+BO_ 2636251143 Display_7: 8 C187
+ SG_ Ground_Speed : 7|16@0- (0.1,0) [0|3000] "km/h"  Vector__XXX
+ SG_ Damper_Pos_FL : 23|16@0- (1E-05,0) [-10000|10000] "m"  Vector__XXX
+ SG_ Damper_Pos_FR : 39|16@0- (1E-05,0) [-10000|10000] "m"  Vector__XXX
+ SG_ Damper_Pos_RL : 55|16@0- (1E-05,0) [-10000|10000] "m"  Vector__XXX
+
+BO_ 2636251144 Display_8: 8 C187
+ SG_ Damper_Pos_RR : 7|16@0- (1E-05,0) [-10000|10000] "m"  Vector__XXX
+ SG_ GPS_Speed : 23|32@0- (0.1,0) [0|0] "km/h"  Vector__XXX
+ SG_ Comms_CAN_1_Diag : 55|16@0- (1,0) [0|1024] ""  Vector__XXX
+
+BO_ 2636251145 Display_9: 8 C187
+ SG_ Acceleration_X : 7|32@0- (0.001,0) [0|0] "G"  Vector__XXX
+ SG_ Acceleration_Y : 39|32@0- (0.001,0) [0|0] "G"  Vector__XXX
+
+BO_ 2636251146 Display_10: 6 C187
+ SG_ Acceleration_Z : 7|32@0- (0.001,0) [0|0] "G"  Vector__XXX
+ SG_ Gear : 39|16@0- (1,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251147 Display_11: 8 C187
+ SG_ Gyro_Yaw_Velocity : 7|32@0- (0.001,0) [0|556] "rps"  Vector__XXX
+ SG_ Auto_Log_Cancel : 39|16@0- (1,0) [0|0] ""  Vector__XXX
+ SG_ Auto_Log_Pending : 55|16@0- (1,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251148 Display_12: 8 C187
+ SG_ Gyro_Pitch_Velocity : 7|32@0- (0.001,0) [0|556] "rps"  Vector__XXX
+ SG_ Gyro_Roll_Velocity : 39|32@0- (0.001,0) [0|556] "rps"  Vector__XXX
+
+BO_ 2636251149 Display_13: 8 C187
+ SG_ Gyro_Yaw_Angle : 7|32@0- (0.1,0) [0|0] "deg"  Vector__XXX
+ SG_ Gyro_Pitch_Angle : 39|32@0- (0.1,0) [0|0] "deg"  Vector__XXX
+
+BO_ 2636251150 Display_14: 8 C187
+ SG_ Gyro_Roll_Angle : 7|32@0- (0.1,0) [0|0] "deg"  Vector__XXX
+ SG_ Bat_Volts_Dash : 39|16@0- (0.01,0) [0|0] "V"  Vector__XXX
+ SG_ Display_Page : 55|16@0- (1,0) [0|5] ""  Vector__XXX
+
+BO_ 2636251151 Display_15: 6 C187
+ SG_ Tire_Temp_Max : 7|16@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ Tire_Temp_Optimal_Low : 23|16@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ Tire_Temp_Optimal_High : 39|16@0- (0.1,0) [0|0] "C"  Vector__XXX
+
+BO_ 2636251152 Display_16: 8 C187
+ SG_ Tire_Temp_Outer_FL : 7|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ Tire_Temp_Middle_FL : 39|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+
+BO_ 2636251153 Display_17: 8 C187
+ SG_ Tire_Temp_Inner_FL : 7|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ Tire_Temp_Outer_FR : 39|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+
+BO_ 2636251154 Display_18: 8 C187
+ SG_ Tire_Temp_Middle_FR : 7|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ Tire_Temp_Inner_FR : 39|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+
+BO_ 2636251155 Display_19: 8 C187
+ SG_ Tire_Temp_Outer_RL : 7|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ Tire_Temp_Middle_RL : 39|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+
+BO_ 2636251156 Display_20: 8 C187
+ SG_ Tire_Temp_Inner_RL : 7|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ Tire_Temp_Outer_RR : 39|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+
+BO_ 2636251157 Display_21: 8 C187
+ SG_ Tire_Temp_Middle_RR : 7|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ Tire_Temp_Inner_RR : 39|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+
+BO_ 2636251158 Display_22: 6 C187
+ SG_ GPS_Fix : 7|16@0- (1,0) [0|0] ""  Vector__XXX
+ SG_ Log_Time : 23|32@0- (0.1,0) [0|0] "s"  Vector__XXX
+
+BO_ 2636251159 Display_23: 8 C187
+ SG_ GPS_Sats_Used : 7|32@0- (1,0) [0|15] ""  Vector__XXX
+ SG_ GPS_Latitude : 39|32@0- (1E-07,0) [0|0] "deg"  Vector__XXX
+
+BO_ 2636251160 Display_24: 8 C187
+ SG_ GPS_Longitude : 7|32@0- (1E-07,0) [0|0] "deg"  Vector__XXX
+ SG_ Lap_Number : 39|16@0- (1,0) [0|0] ""  Vector__XXX
+ SG_ Comms_RS2321_Diag : 55|16@0- (1,0) [0|1024] ""  Vector__XXX
+
+BO_ 2636251161 Display_25: 8 C187
+ SG_ Comms_RS2322_Diag : 7|16@0- (1,0) [0|1024] ""  Vector__XXX
+ SG_ Running_Lap_Time : 23|32@0- (0.01,0) [0|0] "s"  Vector__XXX
+ SG_ Max_Straight_Speed : 55|16@0- (0.1,0) [0|0] "km/h"  Vector__XXX
+
+BO_ 2636251162 Display_26: 8 C187
+ SG_ Min_Corner_Speed : 7|16@0- (0.1,0) [0|0] "km/h"  Vector__XXX
+ SG_ Fastest_Lap_Time : 23|32@0- (0.01,0) [0|0] "s"  Vector__XXX
+ SG_ Coolant_Temperature : 55|16@0- (0.1,0) [0|0] "C"  Vector__XXX
+
+BO_ 2636251163 Display_27: 8 C187
+ SG_ Engine_Oil_Temperature : 7|16@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ Logging_Running : 23|16@0- (1,0) [0|0] ""  Vector__XXX
+ SG_ LF_TTPMS_NODE_ID : 39|32@0- (1,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251164 Display_28: 6 C187
+ SG_ LF_TTPMS_T : 7|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ LF_TTPMS_RSSI : 39|16@0- (1,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251165 Display_29: 8 C187
+ SG_ LF_TTPMS_BAT_V : 7|32@0- (0.001,0) [0|0] "V"  Vector__XXX
+ SG_ LF_TTPMS_SN : 39|32@0- (1,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251166 Display_30: 8 C187
+ SG_ RR_TTPMS_NODE_ID : 7|32@0- (1,0) [0|0] ""  Vector__XXX
+ SG_ RR_TTPMS_T : 39|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+
+BO_ 2636251167 Display_31: 6 C187
+ SG_ RR_TTPMS_RSSI : 7|16@0- (1,0) [0|0] ""  Vector__XXX
+ SG_ RR_TTPMS_BAT_V : 23|32@0- (0.001,0) [0|0] "V"  Vector__XXX
+
+BO_ 2636251168 Display_32: 8 C187
+ SG_ RR_TTPMS_SN : 7|32@0- (1,0) [0|0] ""  Vector__XXX
+ SG_ LR_TTPMS_NODE_ID : 39|32@0- (1,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251169 Display_33: 6 C187
+ SG_ LR_TTPMS_T : 7|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ LR_TTPMS_RSSI : 39|16@0- (1,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251170 Display_34: 8 C187
+ SG_ LR_TTPMS_BAT_V : 7|32@0- (0.001,0) [0|0] "V"  Vector__XXX
+ SG_ LR_TTPMS_SN : 39|32@0- (1,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251171 Display_35: 8 C187
+ SG_ Log_Time_Remaining : 7|16@0- (10,0) [0|0] "s"  Vector__XXX
+ SG_ RF_TTPMS_T : 23|32@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ RF_TTPMS_RSSI : 55|16@0- (1,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251172 Display_36: 8 C187
+ SG_ RF_TTPMS_BAT_V : 7|32@0- (0.001,0) [0|0] "V"  Vector__XXX
+ SG_ RF_TTPMS_SN : 39|32@0- (1,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251173 Display_37: 8 C187
+ SG_ CAN_1_Receive_Error_Count : 7|16@0- (1,0) [0|256] ""  Vector__XXX
+ SG_ CAN_3_Receive_Error_Count : 23|16@0- (1,0) [0|256] ""  Vector__XXX
+ SG_ CAN_1_Bus_Utilization : 39|16@0- (0.001,0) [0|0] "ratio"  Vector__XXX
+ SG_ CAN_3_Bus_Utilization : 55|16@0- (0.001,0) [0|0] "ratio"  Vector__XXX
+
+BO_ 2636251174 Display_38: 8 C187
+ SG_ Engine_Oil_Pressure : 7|16@0- (0.1,0) [0|0] "kPa"  Vector__XXX
+ SG_ Log_Marker : 23|16@0- (1,0) [0|0] ""  Vector__XXX
+ SG_ Lap_Time : 39|32@0- (0.01,0) [0|0] "s"  Vector__XXX
+
+BO_ 2636251175 Display_39: 8 C187
+ SG_ Tire_Pressure_FL : 7|32@0- (0.1,0) [0|0] "kPa"  Vector__XXX
+ SG_ RF_TTPMS_NODE_ID : 39|32@0- (1,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251176 Display_40: 8 C187
+ SG_ Tire_Pressure_FR : 7|32@0- (0.1,0) [0|0] "kPa"  Vector__XXX
+ SG_ Tire_Pressure_RL : 39|32@0- (0.1,0) [0|0] "kPa"  Vector__XXX
+
+BO_ 2636251177 Display_41: 8 C187
+ SG_ Tire_Pressure_RR : 7|32@0- (0.1,0) [0|0] "kPa"  Vector__XXX
+ SG_ Session_Time : 39|32@0- (1,0) [0|0] "s"  Vector__XXX
+
+BO_ 2636251178 Display_42: 8 C187
+ SG_ Session_Reset : 7|16@0- (1,0) [0|1] ""  Vector__XXX
+ SG_ Coolant_Temp_Low : 23|16@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ Eng_Oil_Temp_Low : 39|16@0- (0.1,0) [0|0] "C"  Vector__XXX
+ SG_ Tire_Temp_Min : 55|16@0- (0.1,0) [0|0] "C"  Vector__XXX
+
+BO_ 2636251179 Display_43: 8 C187
+ SG_ Tire_Pressure_Low_Front : 7|16@0- (0.1,0) [0|0] "kPa"  Vector__XXX
+ SG_ Tire_Pressure_Low_Rear : 23|16@0- (0.1,0) [0|0] "kPa"  Vector__XXX
+ SG_ _5V_Aux_Supply : 39|16@0- (0.001,0) [4000|6000] "V"  Vector__XXX
+ SG_ Tires_Ready : 55|16@0- (1,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251180 Display_44: 2 C187
+ SG_ Fuel_Level_Reading : 7|16@0- (0.1,0) [0|0] "l"  Vector__XXX
+
+BO_ 2636251181 Alarm_Message: 8 C187
+ SG_ Alarm_Message : 7|64@0+ (0,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251182 Alarm_Value: 8 C187
+ SG_ Alarm_Value : 7|64@0+ (0,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251183 Alarm_Status: 2 C187
+ SG_ Alarm_Active : 7|8@0+ (0,0) [0|0] ""  Vector__XXX
+ SG_ Alarm_Flash : 15|8@0+ (0,0) [0|0] ""  Vector__XXX
+
+BO_ 2636251136 CRC32: 4 C187
+ SG_ CRC32 : 7|32@0+ (1,0) [0|0] ""  Vector__XXX
+
+
+
+BA_DEF_  "MoTeC_CRC" INT 0 0;
+BA_DEF_ SG_  "MoTeC_Type" ENUM  "Number","Compound_String";
+BA_DEF_ SG_  "MoTeC_Usage" ENUM  "General","CRC32","Alarm_Message","Alarm_Value","Alarm_Active_State","Alarm_Flash_State";
+BA_DEF_ SG_  "MoTeC_Channel" STRING ;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_DEF_  "MoTeC_CRC" -323190314;
+BA_DEF_DEF_  "MoTeC_Type" "Number";
+BA_DEF_DEF_  "MoTeC_Usage" "General";
+BA_DEF_DEF_  "MoTeC_Channel" "";
+BA_DEF_DEF_  "GenMsgCycleTime" 50;
+BA_ "GenMsgCycleTime" BO_ 2636251137 50;
+BA_ "GenMsgCycleTime" BO_ 2636251138 100;
+BA_ "GenMsgCycleTime" BO_ 2636251139 100;
+BA_ "GenMsgCycleTime" BO_ 2636251140 100;
+BA_ "GenMsgCycleTime" BO_ 2636251141 100;
+BA_ "GenMsgCycleTime" BO_ 2636251142 100;
+BA_ "GenMsgCycleTime" BO_ 2636251143 200;
+BA_ "GenMsgCycleTime" BO_ 2636251144 200;
+BA_ "GenMsgCycleTime" BO_ 2636251145 500;
+BA_ "GenMsgCycleTime" BO_ 2636251146 500;
+BA_ "GenMsgCycleTime" BO_ 2636251147 500;
+BA_ "GenMsgCycleTime" BO_ 2636251148 500;
+BA_ "GenMsgCycleTime" BO_ 2636251149 500;
+BA_ "GenMsgCycleTime" BO_ 2636251150 500;
+BA_ "GenMsgCycleTime" BO_ 2636251151 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251152 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251153 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251154 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251155 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251156 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251157 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251158 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251159 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251160 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251161 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251162 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251163 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251164 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251165 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251166 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251167 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251168 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251169 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251170 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251171 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251172 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251173 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251174 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251175 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251176 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251177 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251178 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251179 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251180 1000;
+BA_ "GenMsgCycleTime" BO_ 2636251181 50;
+BA_ "GenMsgCycleTime" BO_ 2636251182 50;
+BA_ "GenMsgCycleTime" BO_ 2636251183 50;
+BA_ "GenMsgCycleTime" BO_ 2636251136 1000;
+BA_ "MoTeC_Channel" SG_ 2636251137 Lap_GainLoss_Running "Lap Gain/Loss Running";
+BA_ "MoTeC_Channel" SG_ 2636251138 Engine_RPM "Engine RPM";
+BA_ "MoTeC_Channel" SG_ 2636251138 Wheel_Speed "Wheel Speed";
+BA_ "MoTeC_Channel" SG_ 2636251139 Wheel_Speed_RR "Wheel Speed RR";
+BA_ "MoTeC_Channel" SG_ 2636251139 Wheel_Speed_FR "Wheel Speed FR";
+BA_ "MoTeC_Channel" SG_ 2636251140 Steering_Wheel_Angle "Steering Wheel Angle";
+BA_ "MoTeC_Channel" SG_ 2636251140 Wheel_Speed_FL "Wheel Speed FL";
+BA_ "MoTeC_Channel" SG_ 2636251140 Air_Temp_Manifold "Air Temp Manifold";
+BA_ "MoTeC_Channel" SG_ 2636251141 Wheel_Speed_RL "Wheel Speed RL";
+BA_ "MoTeC_Channel" SG_ 2636251141 Clutch_Pedal "Clutch Pedal";
+BA_ "MoTeC_Channel" SG_ 2636251141 Brake_Pedal "Brake Pedal";
+BA_ "MoTeC_Channel" SG_ 2636251142 Throttle_Pedal "Throttle Pedal";
+BA_ "MoTeC_Channel" SG_ 2636251143 Ground_Speed "Ground Speed";
+BA_ "MoTeC_Channel" SG_ 2636251143 Damper_Pos_FL "Damper Pos FL";
+BA_ "MoTeC_Channel" SG_ 2636251143 Damper_Pos_FR "Damper Pos FR";
+BA_ "MoTeC_Channel" SG_ 2636251143 Damper_Pos_RL "Damper Pos RL";
+BA_ "MoTeC_Channel" SG_ 2636251144 Damper_Pos_RR "Damper Pos RR";
+BA_ "MoTeC_Channel" SG_ 2636251144 GPS_Speed "GPS Speed";
+BA_ "MoTeC_Channel" SG_ 2636251144 Comms_CAN_1_Diag "Comms CAN 1 Diag";
+BA_ "MoTeC_Channel" SG_ 2636251145 Acceleration_X "Acceleration X";
+BA_ "MoTeC_Channel" SG_ 2636251145 Acceleration_Y "Acceleration Y";
+BA_ "MoTeC_Channel" SG_ 2636251146 Acceleration_Z "Acceleration Z";
+BA_ "MoTeC_Channel" SG_ 2636251146 Gear "Gear";
+BA_ "MoTeC_Channel" SG_ 2636251147 Gyro_Yaw_Velocity "Gyro Yaw Velocity";
+BA_ "MoTeC_Channel" SG_ 2636251147 Auto_Log_Cancel "Auto Log Cancel";
+BA_ "MoTeC_Channel" SG_ 2636251147 Auto_Log_Pending "Auto Log Pending";
+BA_ "MoTeC_Channel" SG_ 2636251148 Gyro_Pitch_Velocity "Gyro Pitch Velocity";
+BA_ "MoTeC_Channel" SG_ 2636251148 Gyro_Roll_Velocity "Gyro Roll Velocity";
+BA_ "MoTeC_Channel" SG_ 2636251149 Gyro_Yaw_Angle "Gyro Yaw Angle";
+BA_ "MoTeC_Channel" SG_ 2636251149 Gyro_Pitch_Angle "Gyro Pitch Angle";
+BA_ "MoTeC_Channel" SG_ 2636251150 Gyro_Roll_Angle "Gyro Roll Angle";
+BA_ "MoTeC_Channel" SG_ 2636251150 Bat_Volts_Dash "Bat Volts Dash";
+BA_ "MoTeC_Channel" SG_ 2636251150 Display_Page "Display Page";
+BA_ "MoTeC_Channel" SG_ 2636251151 Tire_Temp_Max "Tire Temp Max";
+BA_ "MoTeC_Channel" SG_ 2636251151 Tire_Temp_Optimal_Low "Tire Temp Optimal Low";
+BA_ "MoTeC_Channel" SG_ 2636251151 Tire_Temp_Optimal_High "Tire Temp Optimal High";
+BA_ "MoTeC_Channel" SG_ 2636251152 Tire_Temp_Outer_FL "Tire Temp Outer FL";
+BA_ "MoTeC_Channel" SG_ 2636251152 Tire_Temp_Middle_FL "Tire Temp Middle FL";
+BA_ "MoTeC_Channel" SG_ 2636251153 Tire_Temp_Inner_FL "Tire Temp Inner FL";
+BA_ "MoTeC_Channel" SG_ 2636251153 Tire_Temp_Outer_FR "Tire Temp Outer FR";
+BA_ "MoTeC_Channel" SG_ 2636251154 Tire_Temp_Middle_FR "Tire Temp Middle FR";
+BA_ "MoTeC_Channel" SG_ 2636251154 Tire_Temp_Inner_FR "Tire Temp Inner FR";
+BA_ "MoTeC_Channel" SG_ 2636251155 Tire_Temp_Outer_RL "Tire Temp Outer RL";
+BA_ "MoTeC_Channel" SG_ 2636251155 Tire_Temp_Middle_RL "Tire Temp Middle RL";
+BA_ "MoTeC_Channel" SG_ 2636251156 Tire_Temp_Inner_RL "Tire Temp Inner RL";
+BA_ "MoTeC_Channel" SG_ 2636251156 Tire_Temp_Outer_RR "Tire Temp Outer RR";
+BA_ "MoTeC_Channel" SG_ 2636251157 Tire_Temp_Middle_RR "Tire Temp Middle RR";
+BA_ "MoTeC_Channel" SG_ 2636251157 Tire_Temp_Inner_RR "Tire Temp Inner RR";
+BA_ "MoTeC_Channel" SG_ 2636251158 GPS_Fix "GPS Fix";
+BA_ "MoTeC_Channel" SG_ 2636251158 Log_Time "Log Time";
+BA_ "MoTeC_Channel" SG_ 2636251159 GPS_Sats_Used "GPS Sats Used";
+BA_ "MoTeC_Channel" SG_ 2636251159 GPS_Latitude "GPS Latitude";
+BA_ "MoTeC_Channel" SG_ 2636251160 GPS_Longitude "GPS Longitude";
+BA_ "MoTeC_Channel" SG_ 2636251160 Lap_Number "Lap Number";
+BA_ "MoTeC_Channel" SG_ 2636251160 Comms_RS2321_Diag "Comms RS232-1 Diag";
+BA_ "MoTeC_Channel" SG_ 2636251161 Comms_RS2322_Diag "Comms RS232-2 Diag";
+BA_ "MoTeC_Channel" SG_ 2636251161 Running_Lap_Time "Running Lap Time";
+BA_ "MoTeC_Channel" SG_ 2636251161 Max_Straight_Speed "Max Straight Speed";
+BA_ "MoTeC_Channel" SG_ 2636251162 Min_Corner_Speed "Min Corner Speed";
+BA_ "MoTeC_Channel" SG_ 2636251162 Fastest_Lap_Time "Fastest Lap Time";
+BA_ "MoTeC_Channel" SG_ 2636251162 Coolant_Temperature "Coolant Temperature";
+BA_ "MoTeC_Channel" SG_ 2636251163 Engine_Oil_Temperature "Engine Oil Temperature";
+BA_ "MoTeC_Channel" SG_ 2636251163 Logging_Running "Logging Running";
+BA_ "MoTeC_Channel" SG_ 2636251163 LF_TTPMS_NODE_ID "LF TTPMS NODE ID";
+BA_ "MoTeC_Channel" SG_ 2636251164 LF_TTPMS_T "LF TTPMS T";
+BA_ "MoTeC_Channel" SG_ 2636251164 LF_TTPMS_RSSI "LF TTPMS RSSI";
+BA_ "MoTeC_Channel" SG_ 2636251165 LF_TTPMS_BAT_V "LF TTPMS BAT V";
+BA_ "MoTeC_Channel" SG_ 2636251165 LF_TTPMS_SN "LF TTPMS SN";
+BA_ "MoTeC_Channel" SG_ 2636251166 RR_TTPMS_NODE_ID "RR TTPMS NODE ID";
+BA_ "MoTeC_Channel" SG_ 2636251166 RR_TTPMS_T "RR TTPMS T";
+BA_ "MoTeC_Channel" SG_ 2636251167 RR_TTPMS_RSSI "RR TTPMS RSSI";
+BA_ "MoTeC_Channel" SG_ 2636251167 RR_TTPMS_BAT_V "RR TTPMS BAT V";
+BA_ "MoTeC_Channel" SG_ 2636251168 RR_TTPMS_SN "RR TTPMS SN";
+BA_ "MoTeC_Channel" SG_ 2636251168 LR_TTPMS_NODE_ID "LR TTPMS NODE ID";
+BA_ "MoTeC_Channel" SG_ 2636251169 LR_TTPMS_T "LR TTPMS T";
+BA_ "MoTeC_Channel" SG_ 2636251169 LR_TTPMS_RSSI "LR TTPMS RSSI";
+BA_ "MoTeC_Channel" SG_ 2636251170 LR_TTPMS_BAT_V "LR TTPMS BAT V";
+BA_ "MoTeC_Channel" SG_ 2636251170 LR_TTPMS_SN "LR TTPMS SN";
+BA_ "MoTeC_Channel" SG_ 2636251171 Log_Time_Remaining "Log Time Remaining";
+BA_ "MoTeC_Channel" SG_ 2636251171 RF_TTPMS_T "RF TTPMS T";
+BA_ "MoTeC_Channel" SG_ 2636251171 RF_TTPMS_RSSI "RF TTPMS RSSI";
+BA_ "MoTeC_Channel" SG_ 2636251172 RF_TTPMS_BAT_V "RF TTPMS BAT V";
+BA_ "MoTeC_Channel" SG_ 2636251172 RF_TTPMS_SN "RF TTPMS SN";
+BA_ "MoTeC_Channel" SG_ 2636251173 CAN_1_Receive_Error_Count "CAN 1 Receive Error Count";
+BA_ "MoTeC_Channel" SG_ 2636251173 CAN_3_Receive_Error_Count "CAN 3 Receive Error Count";
+BA_ "MoTeC_Channel" SG_ 2636251173 CAN_1_Bus_Utilization "CAN 1 Bus Utilization";
+BA_ "MoTeC_Channel" SG_ 2636251173 CAN_3_Bus_Utilization "CAN 3 Bus Utilization";
+BA_ "MoTeC_Channel" SG_ 2636251174 Engine_Oil_Pressure "Engine Oil Pressure";
+BA_ "MoTeC_Channel" SG_ 2636251174 Log_Marker "Log Marker";
+BA_ "MoTeC_Channel" SG_ 2636251174 Lap_Time "Lap Time";
+BA_ "MoTeC_Channel" SG_ 2636251175 Tire_Pressure_FL "Tire Pressure FL";
+BA_ "MoTeC_Channel" SG_ 2636251175 RF_TTPMS_NODE_ID "RF TTPMS NODE ID";
+BA_ "MoTeC_Channel" SG_ 2636251176 Tire_Pressure_FR "Tire Pressure FR";
+BA_ "MoTeC_Channel" SG_ 2636251176 Tire_Pressure_RL "Tire Pressure RL";
+BA_ "MoTeC_Channel" SG_ 2636251177 Tire_Pressure_RR "Tire Pressure RR";
+BA_ "MoTeC_Channel" SG_ 2636251177 Session_Time "Session Time";
+BA_ "MoTeC_Channel" SG_ 2636251178 Session_Reset "Session Reset";
+BA_ "MoTeC_Channel" SG_ 2636251178 Coolant_Temp_Low "Coolant Temp Low";
+BA_ "MoTeC_Channel" SG_ 2636251178 Eng_Oil_Temp_Low "Eng Oil Temp Low";
+BA_ "MoTeC_Channel" SG_ 2636251178 Tire_Temp_Min "Tire Temp Min";
+BA_ "MoTeC_Channel" SG_ 2636251179 Tire_Pressure_Low_Front "Tire Pressure Low Front";
+BA_ "MoTeC_Channel" SG_ 2636251179 Tire_Pressure_Low_Rear "Tire Pressure Low Rear";
+BA_ "MoTeC_Channel" SG_ 2636251179 _5V_Aux_Supply "5V Aux Supply";
+BA_ "MoTeC_Channel" SG_ 2636251179 Tires_Ready "Tires Ready";
+BA_ "MoTeC_Channel" SG_ 2636251180 Fuel_Level_Reading "Fuel Level Reading";
+BA_ "MoTeC_Type" SG_ 2636251181 Alarm_Message 1;
+BA_ "MoTeC_Usage" SG_ 2636251181 Alarm_Message 2;
+BA_ "MoTeC_Type" SG_ 2636251182 Alarm_Value 1;
+BA_ "MoTeC_Usage" SG_ 2636251182 Alarm_Value 3;
+BA_ "MoTeC_Usage" SG_ 2636251183 Alarm_Active 4;
+BA_ "MoTeC_Usage" SG_ 2636251183 Alarm_Flash 5;
+BA_ "MoTeC_Usage" SG_ 2636251136 CRC32 1;
