@@ -54,13 +54,13 @@ if __name__ == '__main__':
     elif os.path.isdir(args.path):
         # Get all .ld files in this directory
         for item in os.listdir(args.path):
-            if os.path.isfile(item) and os.path.splitext(item)[1] == ".ld":
+            if os.path.splitext(item)[1] == ".ld":
                 # Candidate file
-                if os.path.isfile(os.path.splitext(item)[0] + ".ld.orig"):
+                if os.path.exists(os.path.splitext(item)[0] + ".ld.orig"):
                     print("Skipping '%s' because '.orig' backup exists" % os.path.split(item)[1])
                     continue
                 else:
-                    filenames.append(item)
+                    filenames.append(os.path.join(args.path, item))
 
         if not filenames:
             print("ERROR: No .ld files found in directory '%s'" % args.path)
