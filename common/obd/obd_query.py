@@ -48,9 +48,8 @@ if __name__ == '__main__':
         connection.close()
         exit(0)
 
-    if connection.supports(obd.commands[args.cmd]):
-        response = connection.query(obd.commands[args.cmd])
-        print(response.value)
+    if connection.supports(obd.commands[args.cmd]) or args.force:
+        response = connection.query(obd.commands[args.cmd], args.force)
     else:
         print(args.cmd, " not supported!")
 
