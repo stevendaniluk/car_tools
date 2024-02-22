@@ -50,6 +50,7 @@ if __name__ == '__main__':
 
     if connection.supports(obd.commands[args.cmd]) or args.force:
         response = connection.query(obd.commands[args.cmd], args.force)
+        print(response)
     else:
         print(args.cmd, " not supported!")
 
